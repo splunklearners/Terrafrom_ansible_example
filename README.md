@@ -38,7 +38,7 @@ ssh-add ~/.ssh/id_rsa
 
 ```
 
-6.Run terraform command
+6.Run terraform command, select us-east-or any other region which supports t2.micro intance ( you may change instance type also)
 ```sh
 cd terraform
 terraform init
