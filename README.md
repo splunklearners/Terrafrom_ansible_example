@@ -40,14 +40,16 @@ ssh-add ~/.ssh/id_rsa
 
 6.Run terraform command
 ```sh
-
+cd terraform
 terraform init
 terraform plan
 terraform apply
-
+```
 ## Cleanup
 
 ```sh
+
 cd terraform
 terraform destroy
+
 ```
