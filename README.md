@@ -15,10 +15,9 @@ This repository sets up:
 ## Setup
 
 1. Install the following locally:
-    * [Terraform](https://www.terraform.io/) >= 0.10.0
+    * [Terraform](https://www.terraform.io/)
     * [Terraform Inventory](https://github.com/adammck/terraform-inventory)
-    * Python (see [requirements](https://docs.ansible.com/ansible/latest/intro_installation.html#control-machine-requirements))
-    * [pip](https://pip.pypa.io/en/stable/installing/)
+     
 2. Create user in AWS IAM, generate accesskey and secret key
 
 3. run below command to set aws credentials to system where you run terraform command
